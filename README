@@ -1,0 +1,5 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1558
+
+Black (dark) background, with no obnoxious bold colors.  My attempt at a clean, legible color scheme, tested for half a year with various solaris/linux/windows file types (scripts/configs/etc.).
+Tested on vim 6.x - 7.0.
+
