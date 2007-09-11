@@ -1,7 +1,10 @@
 " Vim color file tailored legibility on black background.
+" Add below line to your vimrc file to ensure optimal experience (sets term to use
+" 256, instead of 16, colors):
+"   set t_Co=256
 "
 " Maintainer:	John Rhee  <jrhee75@gmail.com>
-" Last Change:	2005/10/18	v0.1
+" Last Change:	2007/09/11	v0.2	Set PreProc (set variables) to white.
 
 hi clear
 set background=dark
@@ -28,6 +31,7 @@ let g:colors_name = "icansee"
 "Cyan		term=NONE cterm=bold ctermfg=6 ctermbg=0
 "White		term=NONE cterm=bold ctermfg=7 ctermbg=0
 
+"hi Comment	term=bold		ctermfg=Blue						guifg=Blue
 hi Comment	term=bold		ctermfg=DarkGray					guifg=DarkGray
 hi Constant	term=underline		ctermfg=DarkGreen			gui=NONE	guifg=DarkGreen
 hi Cursor									guibg=fg	guifg=Orchid
@@ -42,7 +46,7 @@ hi ModeMsg	term=bold		cterm=bold				gui=bold
 hi MoreMsg	term=bold		ctermfg=Green				gui=bold	guifg=SeaGreen
 hi NonText	term=bold		ctermfg=DarkGreen			gui=bold	guifg=DarkGreen
 hi Normal				ctermbg=Black		ctermfg=Gray	guibg=Black	guifg=Gray
-hi PreProc	term=underline		ctermfg=Gray						guifg=Gray
+hi PreProc	term=underline		ctermfg=White						guifg=White
 hi Question	term=standout		ctermfg=Green				gui=bold	guifg=Green
 hi Search				ctermbg=Magenta		ctermfg=White	guibg=Magenta	guifg=White
 hi Special	term=bold		ctermfg=Red						guifg=Red
